@@ -3,19 +3,64 @@
 
 <head>
   <meta charset="UTF-8">
-    <title>後期課題袖山</title>
-   
+  <title>変数*引数/JavaScriptによるページの変更/タイマーによるイベント実行</title>
+  <!--
+  <script src="ex06-1.js"></script>
+  <script src="goodbye.js"></script>
+  -->
+ 
+  <script src="ex06-8.js"></script>
+  <script src="ex06-9.js"></script>
+  <script src="ex06-10.js"></script>
+  <script src="ex06-11.js"></script>
+  <script src="ex06-12.js"></script>
+  <script src="ex06-13.js"></script>
+  <script src="ex09-2.js"></script>
+  
+  <link rel="stylesheet" href="imagechange.css">
+  
+  <script src="https://taisukef.github.io/websarasa/websarasa.js"></script>
+  <script src="mangekyo1.js"></script>
+  <script src="mangekyo2.js"></script>
+  <script src="mangekyo3.js"></script>
+  <script src="mangekyo4.js"></script>
+  <script src="mangekyo5.js"></script>
+  <script src="mangekyo6.js"></script>
+  
+</head>
+
+<body>
+  
+<!--  
+<input type="button" value="ここをクリック" onclick="sayhello();">
+<br>
+<br>
+<input type="button" value="ここをクリック" onclick="sayhello();sayhello();">
+<br>
+<br>
+<input type="button" value="関数Good Byeを呼び出し" onclick="goodbye();">
+<br>
+<br>
+-->
 
 
- <h1>JavaScriptによるページの変更69</h1>
+  <h1>JavaScriptによる変更の練習68</h1>
+    <input type="button" value="あいさつ" onclick="sayhello68();">
+    <input type="button" value="太郎" onclick="taro68();">
+    <input type="button" value="花子" onclick="hanako68();">
+    <p id="who68">最初はworld</p>
+<br>
+  
+  <h1>JavaScriptによるページの変更69</h1>
     <div id="txt1" >
-      <input type="button" value="テキストの変更" onclick="txtchange1();">画像</div>
+      <input type="button" value="テキストの変更" onclick="txtchange1();">城西大学</div>
 <br>
     <div id="image1" >
       <input type="button" value="画像の変更" onclick="imgchange1();">
   <img src='./image/nezumi.png' id="logo" alt="Nezumi Logo"></div>
 <br>
-<h1>タイマーイベントによる実行6-10</h1>
+
+  <h1>タイマーイベントによる実行6-10</h1>
 <form name="timer"> 
 <input type="button" value="スタート" onclick="startfnc()">
 <br> 
@@ -36,15 +81,23 @@
   <br>
  <h1>タイマーイベントによる実行6-12</h1>
       <input type="button" value="3秒で変更" onclick="ThreeSecChange();">
-  <img src='./image/nezumi.png' id="logo" alt="NezumiLogo"></div>
-  
+  <img src='./image/nezumi.png' id="logo2" alt="Nezumi Logo">
   <br>
    <h1>タイマーイベントによる実行の応用6-13</h1>
   <div id="back">
       <input type="button" value="変更後3秒でまた戻る" 
              onclick="ChangeImageAndBack();">
-
-             <br>
-
-            </body>
-</html>   
+    
+  <img src='./image/nezumi.png' id="img13" alt="Nezumi Logo" class="imagechange">
+  </div>
+  <br>
+  <br>
+  <h1>JavaScriptの変数とデバッガを理解09-2</h1>
+    <p>下のボタンを押すと数字が表示されます</p>
+    <p><input type="button" value="実行ボタン" onclick="addCount()"></p>
+  
+  
+  
+  
+</body>
+</html
